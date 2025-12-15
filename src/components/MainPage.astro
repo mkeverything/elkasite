@@ -27,17 +27,17 @@ const { titleImage, titleImageSmall } = Astro.props;
       <!-- Background Image with Overlay -->
       <div class="absolute inset-0 -z-20">
         <picture>
-          <source 
-            srcset={backgroundSmall.src} 
+          <source
+            srcset={backgroundSmall.src}
             media="(max-width: 768px)"
             type="image/webp"
           />
-          <img 
-            src={background.src} 
-            alt="Новогодний праздник ёлка и сказка в Москве - интерактивное представление для детей и взрослых" 
-            width="1024" 
+          <img
+            src={background.src}
+            alt="Новогодний праздник ёлка и сказка в Москве - интерактивное представление для детей и взрослых"
+            width="1024"
             height="1536"
-            class="w-full h-full object-cover" 
+            class="w-full h-full object-cover"
             loading="eager"
             decoding="sync"
           />
@@ -49,14 +49,14 @@ const { titleImage, titleImageSmall } = Astro.props;
         class="relative w-full max-w-[600px] flex justify-center items-center group"
       >
         <picture>
-          <source 
-            srcset={titleImageSmall.src} 
+          <source
+            srcset={titleImageSmall.src}
             media="(max-width: 768px)"
             type="image/webp"
           />
           <img
             src={titleImage.src}
-            alt="ёлка и сказка - новогодний интерактивный спектакль для всей семьи в Москве 2025"
+            alt="ёлка и сказка - новогодний празднк для всей семьи в Москве 2026"
             width="1024"
             height="1536"
             class="w-full h-auto object-contain drop-shadow-md"
@@ -75,7 +75,7 @@ const { titleImage, titleImageSmall } = Astro.props;
           >
             <img
               src={buyTicketsImage.src}
-              alt="Купить билеты на ёлка и сказка - новогодний праздник в Москве 3, 4 и 5 января 2025"
+              alt="Купить билеты на ёлка и сказка - новогодний праздник в Москве 3, 4 и 5 января 2026"
               width="1536"
               height="1024"
               class="w-full h-auto drop-shadow-sm"
@@ -164,15 +164,15 @@ const { titleImage, titleImageSmall } = Astro.props;
               href="https://qtickets.ru/event/198955"
               class="qtickets-button qtickets-reset qtickets-secondary block p-0 cursor-pointer focus:outline-none"
             >
-            <img
-              src={buyTicketsImage.src}
-              alt="Купить билеты на новогодний праздник ёлка и сказка в Москве - билеты онлайн qtickets"
-              width="1536"
-              height="1024"
-              class="w-full h-auto drop-shadow-md"
-              loading="lazy"
-              decoding="async"
-            />
+              <img
+                src={buyTicketsImage.src}
+                alt="Купить билеты на новогодний праздник ёлка и сказка в Москве - билеты онлайн qtickets"
+                width="1536"
+                height="1024"
+                class="w-full h-auto drop-shadow-md"
+                loading="lazy"
+                decoding="async"
+              />
             </a>
           </div>
 
